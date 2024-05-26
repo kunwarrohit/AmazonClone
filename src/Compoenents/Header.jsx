@@ -15,7 +15,7 @@ const Header = () => {
         <div className="header-logoBar flexBox">
           <div className="logo">
             <Link to={"/"}>
-              <img className="image" src="./image/amazonlog.png" alt="" />
+              <img className="image" src="../image/amazonlog.png" alt="" />
             </Link>
           </div>
           <div className="header-addSelector flexBox">

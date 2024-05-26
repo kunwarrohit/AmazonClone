@@ -279,6 +279,7 @@ a{
   overflow: hidden;
 }
 .product-offer{
+  font-size: 15px;
   color: #007185;
   text-decoration: none;
   cursor: pointer;

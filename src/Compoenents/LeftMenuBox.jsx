@@ -19,14 +19,13 @@ export const LeftMenuBox = (props) => {
 };
 
 export const LeftMenuBox2 = (props) => {
-
   const { title } = props;
 
   return (
     <div className="leftbar-menu-box">
       <h3 className="title">{title}</h3>
       <ul>
-      {props.listDetail.map((item) => (
+        {props.listDetail.map((item) => (
           <li className="leftMenu-item" key={item.id}>
             <div>{item.menuItem}</div>
           </li>

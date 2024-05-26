@@ -29,12 +29,12 @@ const NavBar = () => {
         </div>
         <div className="offer-section flexBox">
           <div>
-            <p>CITADEL</p>
+            <p>KUNWAR</p>
           </div>
           <div className="between-Border"></div>
           <div className="offer-date">
-            <span className="date">ddd</span>
-            <span className="count-down">ddd</span>
+            <span className="date">Randhir </span>
+            <span className="count-down">Singh</span>
           </div>
         </div>
       </div>

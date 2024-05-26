@@ -16,7 +16,7 @@ const MainSection = () => {
         <div className="product-gallery">
           <ProductCard
             title="Up to 70% off | Clearance store"
-            img="../image/Productimage/b1.jpg"
+            img="public/image/Productimage/b1.jpg"
             offer="Shop Now"
           />
           <ProductCard2
@@ -36,7 +36,7 @@ const MainSection = () => {
         <div className="product-gallery">
           <ProductCard
             title="Bluetooth Calling Smartwatch starts at ₹1,999"
-            img="../image/Productimage/b2.jpg"
+            img="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/PC_CategoryCard_379X304_1._SY304_CB614835787_.jpg"
             offer="Shop Now"
           />
           <ProductCard2
@@ -45,7 +45,7 @@ const MainSection = () => {
           />
           <ProductCard
             title="Amazon pay Book Travel Tickets"
-            img="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/PC_CategoryCard_379X304_1._SY304_CB614835787_.jpg"
+            img="public/image/Productimage/b1.jpg"
             offer="Shop Now"
           />
           <ProductCard2

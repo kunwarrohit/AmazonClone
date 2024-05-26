@@ -28,14 +28,12 @@ export const ProductCard2 = (props) => {
           <h1 className="product-title">{title}</h1>
         </div>
         <div className="product-information">
-        {
-          Detail.map((item) => (
+          {Detail.map((item) => (
             <div className="product-img-container" key={item.id}>
-              <img  className="image" src={item.offerImage} />
+              <img className="image" src={item.offerImage} />
               <p className="image-description">{item.offer}</p>
             </div>
-          ))
-        }
+          ))}
         </div>
         <div>
           <span className="product-offer">See all Offers</span>
