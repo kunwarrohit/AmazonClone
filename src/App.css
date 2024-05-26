@@ -152,6 +152,9 @@ a{
   margin: 0 .5rem;
   background-color: #fff;
 }
+.offer-section{
+  width: 250px;
+}
 .offer-section > div > p{
   font-weight: 700;
   font-size: 1.2rem;
