@@ -7,7 +7,6 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import { Link } from "react-router-dom";
 import CartContext from "../ContextApi/CartContext";
 const Header = () => {
- 
   const { productList } = useContext(CartContext);
 
   return (
@@ -15,8 +14,8 @@ const Header = () => {
       <div className="header-container">
         <div className="header-logoBar flexBox">
           <div className="logo">
-            <Link to={'/'}>
-               <img className="image" src="./image/amazonlog.png" alt="" />
+            <Link to={"/"}>
+              <img className="image" src="./image/amazonlog.png" alt="" />
             </Link>
           </div>
           <div className="header-addSelector flexBox">
@@ -24,7 +23,7 @@ const Header = () => {
               <LocationOnIcon />
             </div>
             <div className="menu-items" style={{ margin: "0" }}>
-              <span>Hello</span>
+              <span>Helloo</span>
               <p className="bold">Select Your Address</p>
             </div>
           </div>
@@ -32,9 +31,7 @@ const Header = () => {
         <div className="header-searchBar">
           <div className="headerSearchBar flexBox">
             <select id="header-category">
-              <option defaultValue="all">
-                All Categories
-              </option>
+              <option defaultValue="all">All Categories</option>
               <option value="saab">Saab</option>
               <option value="vw">VW</option>
               <option value="audi">Audi</option>
@@ -51,16 +48,14 @@ const Header = () => {
         </div>
         <div className="header-menuBar flexBox">
           <div className="menu-items flexBox">
-           
-              <div className="flag flexBox">  
-                <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/in.svg" />
-                <p className="bold">En</p>
-              </div>
-            
-              <div className="downArrow">
-                <ArrowDropDownIcon />
-              </div>
-           
+            <div className="flag flexBox">
+              <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/in.svg" />
+              <p className="bold">En</p>
+            </div>
+
+            <div className="downArrow">
+              <ArrowDropDownIcon />
+            </div>
           </div>
           <div className="menu-items">
             <span>
@@ -73,15 +68,15 @@ const Header = () => {
             <p className="bold">& Orders</p>
           </div>
           <Link to={"/CartPage"}>
-          <div className="menu-items flexBox">
-            <div className="bold">
-              <AddShoppingCartIcon />
-              <span>{productList.length}</span>
+            <div className="menu-items flexBox">
+              <div className="bold">
+                <AddShoppingCartIcon />
+                <span>{productList.length}</span>
+              </div>
+              <div>
+                <p>Cart</p>
+              </div>
             </div>
-            <div>
-              <p>Cart</p>
-            </div>
-          </div>
           </Link>
         </div>
       </div>
